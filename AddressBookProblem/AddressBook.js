@@ -7,7 +7,7 @@ class Contact
     city;
     state;
     zip;
-    phoneNo;
+    phoneNo;    
     email;
     
 
@@ -90,5 +90,15 @@ class Contact
 }
 
 
-let contact1 = new Contact("Parvez", "Makandar", "AzamNagar", "Belgaum", "Karnataka",590010,8147340746,"parvezhm@gmail.com");
-console.log(contact1)
+let contact1 = new Contact("Parvez", "Makandar", "AzamNagar", "Belgaum", "Karnataka","590010","91 8147340746","parvezhm050@gmail.com");
+let contact2 = new Contact("Rehan", "Rangari", "GandhiNagar", "Ratnagiri", "Maharashtra", "414044", "91 9989897678", "rehan.rangari44@gmail.com")
+let contact3 = new Contact("Zaid", "Maks", "Banglore", "Banglore", "Karnatka", "560066", "91 8987678789", "zaid33@gmail.com")
+
+var addressBookArray = new Array()
+addressBookArray.push(contact1)
+addressBookArray.push(contact2)
+addressBookArray.push(contact3)    
+
+for(let i = 0; i < addressBookArray.length; i++){
+    console.log(addressBookArray[i].toString())
+}
