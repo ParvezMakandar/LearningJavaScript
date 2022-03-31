@@ -1,0 +1,107 @@
+<!doctype html>
+<head>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content > article {
+    flex: 4;
+    min-height: 60vh;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav {
+    padding: 1em;
+  }
+  footer{
+    padding-bottom: 400px;
+  }
+  
+  h1{
+    margin-left: auto;
+  
+  }
+  p{
+    font-size: large;
+  }
+ </style>
+ </head>
+<body>
+  <nav class="col-1">
+    <img src="/HTMLWebLayoutCardsPhotoGallery/layouts/assets/oopsimage4.jpg" alt="oops image" >
+    <a href="https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/">
+      <h1>For more about OOPs Concept By geeksforgeeks</h1>
+      <button>Click here!!</button>
+    </a>
+    <a href="https://www.javatpoint.com/java-oops-concepts">
+      <h1>For more about OOPs Concept by javatpoint</h1>
+      <button>Click here!</button>
+    </a>
+    <a href="https://www.w3schools.com/java/java_oop.asp">
+      <h1>For more about OOPs Concept by w3schools</h1>
+      <button>Click here!</button>
+    </a>
+  </nav>
+  <div class="col-2">
+  	<header>
+      <img src="/HTMLWebLayoutCardsPhotoGallery/layouts/assets/oopsImage.jpg" alt="OOPS Image" height="100" width="100">
+      <img src="/HTMLWebLayoutCardsPhotoGallery/layouts/assets/oopsimage6.png" alt="oops Image" height="100px" width= 20%>
+          <h1>OOPS Concept</h1>
+    </header>
+    <main class="content">
+    <article>
+      <ul>
+        <li>
+          <h1>Encapsulation</h1>
+          <p>Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates. Another way to think about encapsulation is, it is a protective shield that prevents the data from being accessed by the code outside this shield. </p>
+        </li>
+        <li>
+          <h1>Inheritance</h1>
+          <p>It is the mechanism in java by which one class is allowed to inherit the features(fields and methods) of another class. The keyword used for inheritance is extends.  </p>
+        </li>
+        <li>
+          <h1>Polymorphism</h1>
+          <p>The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.</p>
+          <h1>In Java polymorphism is mainly divided into two types:</h1>
+          <li style="margin-left: 40px;font-size: large;">Compile time Polymorphism</li>
+          <li style="margin-left: 40px;font-size: large;">Runtime Polymorphism</li>
+        </li>
+        <li>
+          <h1>Abstraction</h1>
+          <p>Data Abstraction is the property by virtue of which only the essential details are displayed to the user.In java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.</p>
+        </li>
+        
+      </ul>
+
+    </article>
+    </main>
+  	<footer>
+      <img src="/HTMLWebLayoutCardsPhotoGallery/layouts/assets/oopsimageWithObjects.png" alt="OOPs Image" height="400px">
+      <img src="/HTMLWebLayoutCardsPhotoGallery/layouts/assets/oops-concept5.jpg" alt="oops img" height="400px"width=50%>
+     
+    </footer>
+  </div>
+</body>
+</html>
